@@ -2,7 +2,14 @@
 
 use Illuminate\Support\Str;
 
-$DATABASE_URL = parse_url(getenv('DATABASE_URL'));
+if (getenv('DATABASE_URL')) {
+    $DATABASE_URL = parse_url(getenv('DATABASE_URL'));
+    putenv('DB_HOST='.$DATABASE_URL['host']);
+    putenv('DB_PORT='.$DATABASE_URL['port']);
+    putenv('DB_DATABASE='.ltrim($DATABASE_URL['path']. '/'));
+    putenv('DB_USERNAME='.$DATABASE_URL['user']);
+    putenv('DB_PASSWORD='.$DATABASE_URL['pass']);
+}
 
 return [
 
@@ -67,11 +74,12 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => $DATABASE_URL['host'],
-            'port' => $DATABASE_URL['post'],
-            'database' => ltrim($DATABASE_URL['path'], '/'),
-            'username' => $DATABASE_URL['user'],
-            'password' => $DATABASE_URL['pass'],
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '5432'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
