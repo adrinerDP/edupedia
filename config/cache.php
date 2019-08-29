@@ -2,6 +2,11 @@
 
 use Illuminate\Support\Str;
 
+$REDIS_URL = parse_url(getenv('REDIS_URL'));
+putenv('REDIS_HOST='.$REDIS_URL['host']);
+putenv('REDIS_PORT='.$REDIS_URL['port']);
+putenv('REDIS_PASSWORD='.$REDIS_URL['pass']);
+
 return [
 
     /*
@@ -18,7 +23,7 @@ return [
     |
     */
 
-    'default' => env('CACHE_DRIVER', 'file'),
+    'default' => env('CACHE_DRIVER', 'redis'),
 
     /*
     |--------------------------------------------------------------------------
