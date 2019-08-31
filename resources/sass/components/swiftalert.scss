@@ -1,0 +1,68 @@
+.swiftalert {
+    /* Positioning */
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -100px;
+    margin: 0 auto;
+
+    /* Sizing */
+    width: 100%;
+    max-width: 800px;
+
+    /* Designing */
+    padding: 15px;
+    border-radius: 3px 3px 0 0;
+    box-shadow: rgba(0,0,0,0.3) 0 0 5px;
+    color: #ffffff;
+    font-weight: 700;
+
+    /* Animation */
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.swiftalert.opened {
+    bottom: 0;
+}
+
+/* Color Themes */
+.swiftalert-default {
+    background: #bdc3c7;
+}
+.swiftalert-success {
+    background: #27ae60;
+}
+
+.swiftalert-danger {
+    background: #c0392b;
+}
+
+.swiftalert-warning {
+    background: #e67e22;
+}
+
+.swiftalert-info {
+    background: #3498db;
+}
+
+.swiftalert-question {
+    background: #34495e;
+}
+
+/* Options */
+.swiftalert .fas {
+    margin-right: 5px;
+}
+
+.swiftalert .close {
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+    float: right;
+    color: rgba(255,255,255,0.6);
+    font-size: 1.5rem;
+}
+.swiftalert .close:hover {
+    cursor: pointer;
+    color: rgba(255,255,255,0.9);
+}

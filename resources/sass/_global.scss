@@ -1,0 +1,19 @@
+body {
+    margin-top: calc(50px + 1rem);
+}
+
+hr {
+    margin: 0.5rem 0;
+    &.card-split {
+        margin: 0.5rem -0.75rem;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+        color: inherit;
+        text-decoration: none;
+    }
+}

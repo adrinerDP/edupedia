@@ -1,7 +1,7 @@
 <?php
 namespace App\Services;
 
-class APIWrapper {
+class ReturnAPI {
     private $returnCode = 200;
     private $statusMessage = 'Successful';
 

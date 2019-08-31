@@ -1,12 +1,20 @@
-// Body
-$body-bg: #f8fafc;
-
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
-$font-size-base: 0.9rem;
+$font-family-sans-serif: 'Noto Sans Korean', sans-serif;
+$font-size-base: 1rem;
 $line-height-base: 1.6;
 
+// Design
+$enable-rounded: false;
+$grid-gutter-width: 1rem;
+
+// Navigation
+$navbar-dark-color: #E0E0E0;
+$navbar-dark-hover-color: #EEEEEE;
+$navbar-dark-active-color: #FFFFFF;
+
 // Colors
+$body-bg: #f2f4f7;
+$primary: #3F51B5;
 $blue: #3490dc;
 $indigo: #6574cd;
 $purple: #9561e2;

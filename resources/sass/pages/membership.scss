@@ -1,0 +1,20 @@
+.membership {
+    #login, #register, #profile {
+        label {
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+        .form-control {
+            margin-bottom: 0.75rem;
+        }
+        .btn {
+            margin-bottom: 0.75rem;
+        }
+        input[type=password] {
+            letter-spacing: 1px;
+        }
+        .invalid-feedback {
+            margin: -0.5rem 0 0.5rem;
+        }
+    }
+}

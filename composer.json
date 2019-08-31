@@ -14,9 +14,11 @@
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
         "league/csv": "^9.3",
-        "predis/predis": "^1.1"
+        "predis/predis": "^1.1",
+        "schuppo/password-strength": "^1.11"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",

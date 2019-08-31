@@ -1,8 +1,20 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
-// Variables
 @import 'variables';
-
-// Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~noto-sans-kr/styles.css';
+@import 'global';
+
+// Components
+@import 'components/swiftalert';
+@import 'components/navigation';
+@import 'components/footer';
+@import 'components/box';
+@import 'components/card';
+@import 'components/list-group';
+@import 'components/landing';
+@import 'components/sidebar';
+
+// Pages
+@import 'pages/membership';

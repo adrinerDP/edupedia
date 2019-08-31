@@ -1,0 +1,27 @@
+.card {
+    box-shadow: 0 0 5px -3px #000000;
+}
+
+.card-header, .card-body, .card-footer {
+    padding: 0.5rem 0.75rem;
+    background: #ffffff;
+}
+
+.card-header {
+    font-weight: 700;
+}
+
+.header {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-bottom: 0.75rem;
+    padding: 2rem 0;
+    text-align: center;
+    background: center center url('/media/page-header.png') no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0 0 20px #000000;
+    h2 {
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+}

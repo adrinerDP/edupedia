@@ -1,0 +1,27 @@
+.footer {
+    background: #ffffff;
+    box-shadow: 0 1000px 0 1000px #ffffff;
+    border-top: 1px solid #cfcfcf;
+    .footer-top {
+        padding: 0.25rem 0;
+        border-bottom: 1px solid #dfdfdf;
+        font-weight: 700;
+    }
+    .footer-bottom {
+        padding: 0.25rem 0;
+    }
+    .logo {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        color: #aaaaaa;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+
+    }
+}

@@ -1,0 +1,48 @@
+.sidebar {
+    margin-bottom: 0.75rem;
+    border: 1px solid #efefef;
+    border-top: 3px solid #009688;
+    border-bottom: 2px solid #000000;
+    background: #ffffff;
+    .sidebar-header {
+        padding: 2rem 0.75rem 1rem;
+        border-bottom: 1px solid #d6d6d6;
+        .title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            line-height: 2rem;
+        }
+        .subtitle {
+            margin: 0;
+            color: $secondary;
+        }
+    }
+    .sidebar-menus {
+        padding: 0.25rem 1rem;
+        .nav-item {
+            font-size: 0.9rem;
+            border-bottom: 1px solid #e4e4e4;
+            .nav-link {
+                color: inherit;
+                padding-left: 0;
+                padding-right: 0;
+            }
+            &:last-child {
+                border: 0;
+            }
+        }
+    }
+    .sidebar-footer {
+        padding: 0.75rem;
+    }
+}
+
+.insert {
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
