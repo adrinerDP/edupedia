@@ -49,31 +49,34 @@
                     searchMeal.find('#lunch').html('');
                     searchMeal.find('#dinner').html('');
                     let isNull = true;
-                    if (data.body.MEAL.BREAKFAST != null) {
+                    if (data.body.MEAL.BREAKFAST !== null) {
+                        searchMeal.find('#breakfast').parent().parent().removeClass('d-none');
                         data.body.MEAL.BREAKFAST.forEach(function(value) {
                             searchMeal.find('#breakfast').append('<span class="badge badge-light mr-2">'+value+'</span>');
                         });
                         isNull = false;
                     } else {
-                        searchMeal.find('#breakfast').parent().parent().remove();
+                        searchMeal.find('#breakfast').parent().parent().addClass('d-none');
                     }
 
-                    if (data.body.MEAL.LUNCH != null) {
+                    if (data.body.MEAL.LUNCH !== null) {
+                        searchMeal.find('#lunch').parent().parent().removeClass('d-none');
                         data.body.MEAL.LUNCH.forEach(function (value) {
                             searchMeal.find('#lunch').append('<span class="badge badge-light mr-2">' + value + '</span>');
                         });
                         isNull = false;
                     } else {
-                        searchMeal.find('#lunch').parent().parent().remove();
+                        searchMeal.find('#lunch').parent().parent().addClass('d-none');
                     }
 
-                    if (data.body.MEAL.DINNER != null) {
+                    if (data.body.MEAL.DINNER !== null) {
+                        searchMeal.find('#dinner').parent().parent().removeClass('d-none');
                         data.body.MEAL.DINNER.forEach(function (value) {
                             searchMeal.find('#dinner').append('<span class="badge badge-light mr-2">' + value + '</span>');
                         });
                         isNull = false;
                     } else {
-                        searchMeal.find('#dinner').parent().parent().remove();
+                        searchMeal.find('#dinner').parent().parent().addClass('d-none');
                     }
 
                     if (isNull) {
