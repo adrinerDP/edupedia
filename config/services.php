@@ -34,4 +34,10 @@ return [
         'secret' => env('SPARKPOST_SECRET'),
     ],
 
+    'facebook_poster' => [
+        'app_id'    => getenv('FACEBOOK_APP_ID'),
+        'app_secret' => getenv('FACEBOOK_APP_SECRET'),
+        'access_token'    => getenv('FACEBOOK_ACCESS_TOKEN'),
+    ]
+
 ];

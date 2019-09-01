@@ -34,12 +34,16 @@ class CalendarParser {
         $events = explode('|', $records->resultSVO->selectMonth[$weekKey]->{$dayKey});
         $eventList = [];
 
-        foreach ($events as $event) {
-            $event = explode(':', $event);
-            array_push($eventList, $event[2]);
-        }
+        if ($events[0] == '') {
+            return null;
+        } else {
+            foreach ($events as $event) {
+                $event = explode(':', $event);
+                array_push($eventList, $event[2]);
+            }
 
-        return $eventList;
+            return $eventList;
+        }
     }
 
     private function getWeekOfMonth(Carbon $date)

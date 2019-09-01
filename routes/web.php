@@ -24,6 +24,7 @@ Route::group([
     'namespace' => 'Frontend'
 ], function () {
     Route::get('/', 'HomeController@show')->name('home');
+    Route::get('facebook-post', 'FacebookController@post');
 });
 
 Route::group([
