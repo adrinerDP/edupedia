@@ -70,25 +70,25 @@ class MealController extends Controller
     private function getDayOfWeek($dayOfWeek)
     {
         switch ($dayOfWeek) {
-            case 0:
+            case 1:
                 $dayOfWeek = 'mon';
                 break;
-            case 1:
+            case 2:
                 $dayOfWeek = 'tue';
                 break;
-            case 2:
+            case 3:
                 $dayOfWeek = 'wed';
                 break;
-            case 3:
+            case 4:
                 $dayOfWeek = 'the';
                 break;
-            case 4:
+            case 5:
                 $dayOfWeek = 'fri';
                 break;
-            case 5:
+            case 6:
                 $dayOfWeek = 'sat';
                 break;
-            case 6:
+            case 0:
                 $dayOfWeek = 'sun';
                 break;
             default:
