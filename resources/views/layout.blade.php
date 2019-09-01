@@ -15,6 +15,20 @@
     <!-- RESOURCES -->
     @yield('resource')
     @yield('resource_backup')
+    <!-- Google Analytics & Adsense-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146850161-1"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-146850161-1');
+
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-5481942781577149",
+            enable_page_level_ads: true
+        });
+    </script>
 </head>
 <body>
 @include('components.navigation')
