@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://edupedia.kr/</loc>
+  <lastmod>2019-09-01T13:51:12+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://edupedia.kr/api_docs/intro</loc>
+  <lastmod>2019-09-01T13:51:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://edupedia.kr/api_docs/region</loc>
+  <lastmod>2019-09-01T13:51:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://edupedia.kr/api_docs/office</loc>
+  <lastmod>2019-09-01T13:51:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://edupedia.kr/api_docs/school</loc>
+  <lastmod>2019-09-01T13:51:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://edupedia.kr/api_docs/meal</loc>
+  <lastmod>2019-09-01T13:51:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://edupedia.kr/api_docs/calendar</loc>
+  <lastmod>2019-09-01T13:51:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://edupedia.kr/auth/login</loc>
+  <lastmod>2019-09-01T13:51:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://edupedia.kr/auth/register</loc>
+  <lastmod>2019-09-01T13:51:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
