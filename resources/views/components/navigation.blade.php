@@ -1,6 +1,9 @@
 <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark py-1">
     <div class="container">
-        <a class="navbar-brand" href="{{ config('app.url') }}">{{ config('app.name') }}</a>
+        <a class="navbar-brand" href="{{ config('app.url') }}">
+            <img src="/media/symbol.png" alt="Symbol" class="brand-logo">
+            {{ config('app.name') }}
+        </a>
         <div class="togglers mt-1">
             <a class="navbar-toggler d-lg-none" href="#" data-toggle="collapse" data-target="#nav_user">
                 <i class="fas fa-user fa-fw"></i>

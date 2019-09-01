@@ -10,4 +10,10 @@
         background: #212121;
         border-radius: 3px;
     }
+    .brand-logo {
+        filter: invert(1);
+        height: 1rem;
+        margin-top: -3px;
+        margin-right: -2px;
+    }
 }

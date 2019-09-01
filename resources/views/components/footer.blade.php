@@ -21,7 +21,9 @@
                     </ul>
                 </div>
                 <div class="col-md-3 text-right">
-                    <span class="logo">EDUPEDIA</span>
+                    <span class="logo">
+                        <img src="/media/favicon.png" style="height: 4rem;filter: grayscale(1) opacity(0.5);">
+                    </span>
                 </div>
             </div>
         </div>
